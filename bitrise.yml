@@ -73,3 +73,5 @@ app:
 trigger_map:
   - push_branch: main
     workflow: deploy
+  - pull_request_source_branch: "*"
+    workflow: primary
