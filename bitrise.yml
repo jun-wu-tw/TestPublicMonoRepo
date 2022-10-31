@@ -70,3 +70,6 @@ app:
   - opts:
       is_expand: false
     VARIANT: release
+trigger_map:
+  - push_branch: main
+    workflow: deploy
