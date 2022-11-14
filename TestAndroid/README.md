@@ -1,3 +1,3 @@
 # TestPublicMonoRepo
 
-Test select build with related files 4
+Test select build with related files 5
