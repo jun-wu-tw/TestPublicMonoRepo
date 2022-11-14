@@ -1,4 +1,4 @@
 # TestBE
 
 Test trigger
-Test trigger select build 7
+Test trigger select build 8
