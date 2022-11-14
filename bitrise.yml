@@ -55,7 +55,6 @@ workflows:
             - project_location: "$PROJECT_LOCATION"
             - variant: "$VARIANT"
       - cache-push@2: {}
-      - deploy-to-bitrise-io@2: {}
 meta:
   bitrise.io:
     stack: linux-docker-android-20.04
