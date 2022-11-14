@@ -1,4 +1,4 @@
 # TestPublicMonoRepo
 
 Test trigger 3
-Test trigger select build 2
+Test trigger select build 3
