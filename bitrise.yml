@@ -50,6 +50,7 @@ workflows:
       - install-missing-android-tools@3:
           inputs:
             - gradlew_path: "$PROJECT_LOCATION/gradlew"
+      - android-build@1: {}
       - android-unit-test@1:
           inputs:
             - project_location: "$PROJECT_LOCATION"
@@ -70,7 +71,7 @@ app:
         is_expand: false
       VARIANT: release
 trigger_map:
-  - push_branch: "*"
+  - push_branch: main
     workflow: deploy
   - pull_request_source_branch: "*"
     workflow: deploy
