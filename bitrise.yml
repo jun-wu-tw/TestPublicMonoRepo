@@ -75,3 +75,4 @@ trigger_map:
     workflow: deploy
   - pull_request_source_branch: "*"
     workflow: deploy
+    pull_request_target_branch: main
