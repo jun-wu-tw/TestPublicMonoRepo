@@ -73,6 +73,6 @@ app:
 trigger_map:
   - push_branch: main
     workflow: deploy
-  - pull_request_source_branch: "*"
+  - pull_request_source_branch: testMono2
     workflow: deploy
     pull_request_target_branch: main
